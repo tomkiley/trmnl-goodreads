@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: https://www.goodreads.com/review/list_rss/{{ gr_account_number }}?shelf={{ shelf }}
+polling_url: https://www.goodreads.com/review/list_rss/{{ gr_account_number }}?shelf={{ shelf }}&page=1&per_page={{ layout_number_of_books }}
 polling_headers: ''
 polling_body: 
 id: 168273
