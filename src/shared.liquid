@@ -12,7 +12,7 @@ book and array if there is more than one book.
   {% comment %}
   item was an array (multiple books)
   {% endcomment %}
-  {% assign book = rss.channel.item[3] %}
+  {% assign book = rss.channel.item[0] %}
   {% assign has_single_book = false %}
   {% assign books = rss.channel.item %}
 {% endif %}
